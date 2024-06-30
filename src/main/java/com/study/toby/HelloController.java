@@ -1,23 +1,24 @@
 package com.study.toby;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Objects;
 
-@Controller
-@RequestMapping("/toby")
+@RestController
 public class HelloController {
     private final HelloService service;
+    private final ApplicationContext applicationContext;
 
-    public HelloController(HelloService service) {
+    public HelloController(HelloService service, ApplicationContext applicationContext) {
         this.service = service;
+        this.applicationContext = applicationContext;
+
+        System.out.println("Application context: " + applicationContext);
     }
 
     @GetMapping("/hello")
-    @ResponseBody
     public String hello(String name) {
         return service.sayHello(Objects.requireNonNull(name));
     }
