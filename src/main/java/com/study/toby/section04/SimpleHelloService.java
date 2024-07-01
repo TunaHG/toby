@@ -1,4 +1,4 @@
-package com.study.toby;
+package com.study.toby.section04;
 
 import org.springframework.stereotype.Service;
 
