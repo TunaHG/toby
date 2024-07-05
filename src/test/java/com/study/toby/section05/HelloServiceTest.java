@@ -1,6 +1,5 @@
 package com.study.toby.section05;
 
-import com.study.toby.section04.SimpleHelloService;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -13,5 +12,14 @@ public class HelloServiceTest {
         String res = helloService.sayHello("Spring");
 
         assertThat(res).isEqualTo("Hello, Spring!");
+    }
+
+    @Test
+    void helloDecorator() {
+        HelloDecorator decorator = new HelloDecorator(name -> name);
+
+        String res = decorator.sayHello("Spring");
+
+        assertThat(res).isEqualTo("*Spring*");
     }
 }
