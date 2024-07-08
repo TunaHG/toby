@@ -1,4 +1,4 @@
-package com.study.toby.section06;
+package com.study.toby.section06.config;
 
 import org.springframework.stereotype.Component;
 
