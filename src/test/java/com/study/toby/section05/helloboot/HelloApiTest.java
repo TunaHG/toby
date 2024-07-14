@@ -1,4 +1,4 @@
-package com.study.toby.section05;
+package com.study.toby.section05.helloboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.web.client.TestRestTemplate;

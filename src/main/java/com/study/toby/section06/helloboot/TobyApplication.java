@@ -1,4 +1,4 @@
-package com.study.toby.section06;
+package com.study.toby.section06.helloboot;
 
 import com.study.toby.section06.config.EnableMyAutoConfiguration;
 import com.study.toby.section06.config.MySpringBootApplication;

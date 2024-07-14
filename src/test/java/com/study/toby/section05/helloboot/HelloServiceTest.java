@@ -1,5 +1,7 @@
-package com.study.toby.section05;
+package com.study.toby.section05.helloboot;
 
+import com.study.toby.section05.HelloDecorator;
+import com.study.toby.section05.SimpleHelloService;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

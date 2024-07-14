@@ -1,4 +1,4 @@
-package com.study.toby.section06;
+package com.study.toby.section06.helloboot;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.study.toby.section06;
+package com.study.toby.section06.helloboot;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
