@@ -1,4 +1,4 @@
-package com.study.toby.section04;
+package com.study.toby.section04.helloboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;

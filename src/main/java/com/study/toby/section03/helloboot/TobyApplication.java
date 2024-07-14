@@ -1,4 +1,4 @@
-package com.study.toby.section03;
+package com.study.toby.section03.helloboot;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;

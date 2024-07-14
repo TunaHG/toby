@@ -1,7 +1,7 @@
 package com.study.toby.section06.helloboot;
 
-import com.study.toby.section05.HelloDecorator;
-import com.study.toby.section05.SimpleHelloService;
+import com.study.toby.section05.helloboot.HelloDecorator;
+import com.study.toby.section05.helloboot.SimpleHelloService;
 import org.junit.jupiter.api.Test;
 
 import java.lang.annotation.ElementType;

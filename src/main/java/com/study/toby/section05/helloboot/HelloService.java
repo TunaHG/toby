@@ -1,4 +1,4 @@
-package com.study.toby.section04;
+package com.study.toby.section05.helloboot;
 
 public interface HelloService {
     String sayHello(String name);

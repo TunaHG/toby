@@ -1,4 +1,4 @@
-package com.study.toby.section03;
+package com.study.toby.section03.helloboot;
 
 public class HelloController {
 

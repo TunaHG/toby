@@ -1,4 +1,4 @@
-package com.study.toby.section05;
+package com.study.toby.section05.helloboot;
 
 import org.springframework.stereotype.Component;
 
