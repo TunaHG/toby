@@ -1,3 +1,3 @@
-com.study.toby.section07.config.autoconfig.DispatcherServletConfig
-com.study.toby.section07.config.autoconfig.TomcatWebServerConfig
-com.study.toby.section07.config.autoconfig.JettyWebServerConfig
+com.study.toby.section08.config.autoconfig.DispatcherServletConfig
+com.study.toby.section08.config.autoconfig.TomcatWebServerConfig
+com.study.toby.section08.config.autoconfig.JettyWebServerConfig
