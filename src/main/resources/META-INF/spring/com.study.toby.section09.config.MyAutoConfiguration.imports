@@ -1,3 +1,4 @@
+com.study.toby.section09.config.autoconfig.DataSourceConfig
 com.study.toby.section09.config.autoconfig.PropertyPostProcessorConfig
 com.study.toby.section09.config.autoconfig.PropertyPlaceholderConfig
 com.study.toby.section09.config.autoconfig.DispatcherServletConfig
