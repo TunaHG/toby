@@ -1,7 +1,5 @@
 package com.study.toby.section09.helloboot;
 
-import com.study.toby.section05.helloboot.HelloDecorator;
-import com.study.toby.section05.helloboot.SimpleHelloService;
 import org.junit.jupiter.api.Test;
 
 import java.lang.annotation.ElementType;
@@ -28,7 +26,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class HelloServiceTest {
     @UnitTest
     void simpleHelloService() {
-        SimpleHelloService helloService = new SimpleHelloService();
+        // SimpleHelloService helloService = new SimpleHelloService(getMemberRepository());
+        SimpleHelloService helloService = new SimpleHelloService(memberRepository);
 
         String res = helloService.sayHello("Spring");
 
@@ -43,4 +42,30 @@ public class HelloServiceTest {
 
         assertThat(res).isEqualTo("*Spring*");
     }
+
+    private static MemberRepository getMemberRepository() {
+        return new MemberRepository() {
+            @Override
+            public Member findMember(String name) {
+                return null;
+            }
+
+            @Override
+            public void increaseCount(String name) {
+
+            }
+        };
+    }
+
+    private static MemberRepository memberRepository = new MemberRepository() {
+        @Override
+        public Member findMember(String name) {
+            return null;
+        }
+
+        @Override
+        public void increaseCount(String name) {
+
+        }
+    };
 }

@@ -14,10 +14,10 @@ public class JdbcTemplateTest {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @BeforeEach
-    void init() {
-        jdbcTemplate.execute("CREATE TABLE IF NOT EXISTS member(name varchar(50) PRIMARY KEY, count int)");
-    }
+    // @BeforeEach
+    // void init() {
+    //     jdbcTemplate.execute("CREATE TABLE IF NOT EXISTS member(name varchar(50) PRIMARY KEY, count int)");
+    // }
 
     @Test
     void insertAndQuery() {
