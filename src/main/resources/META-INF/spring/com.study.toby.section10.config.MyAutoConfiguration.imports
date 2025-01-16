@@ -1,6 +1,0 @@
-com.study.toby.section10.config.autoconfig.DataSourceConfig
-com.study.toby.section10.config.autoconfig.PropertyPostProcessorConfig
-com.study.toby.section10.config.autoconfig.PropertyPlaceholderConfig
-com.study.toby.section10.config.autoconfig.DispatcherServletConfig
-com.study.toby.section10.config.autoconfig.TomcatWebServerConfig
-com.study.toby.section10.config.autoconfig.JettyWebServerConfig

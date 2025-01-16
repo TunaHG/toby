@@ -1,14 +1,15 @@
 package com.study.toby.section10.helloboot;
 
-import com.study.toby.section09.helloboot.Member;
-import com.study.toby.section09.helloboot.MemberRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@HelloBootTest
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
+@Transactional
 public class MemberRepositoryTest {
     @Autowired
     JdbcTemplate jdbcTemplate;
